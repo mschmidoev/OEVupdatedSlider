@@ -13,4 +13,6 @@ body, jumbotron {
 body {
   background-image: url("https://i.imgur.com/Ll1mhwd.jpg");
   background-color: #180A38;
+  background-size: cover;
+
 }
