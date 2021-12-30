@@ -17,7 +17,7 @@ const treeprice = 0
           console.log("checked ran");
               const percent = percentInput.value;
             const cars = carsInput.value;
-            const cost = cars * (percent/100)*1.574578256;
+            const cost = cars * (percent/100)*1.58359056;
             total.innerText = internationalNumberFormat.format(cost.toFixed()) + ' tons of CO2 per year';
           const treecost = cost*1000/21;
            tree.innerText = 'that\'s equal to ' + internationalNumberFormat.format(treecost.toFixed()) + ' trees 🌳 per year';
@@ -26,7 +26,7 @@ const treeprice = 0
           console.log("unchecked ran");
           const percent = percentInput.value;
             const cars = carsInput.value;
-            const cost = cars * (percent/100)*0.8691237105;
+            const cost = cars * (percent/100)*0.8781360145;
             total.innerText = internationalNumberFormat.format(cost.toFixed()) + ' tons of CO2 per year';
           const treecost = cost*1000/21;
            tree.innerText = 'that\'s equal to ' + internationalNumberFormat.format(treecost.toFixed()) + ' trees 🌳 per year';
