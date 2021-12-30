@@ -9,3 +9,7 @@ body, jumbotron {
 * {
   font-family: Gotham, helvetica, arial, sans-serif;
 }
+
+body {
+  background-color: #180A38;
+}
